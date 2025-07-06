@@ -2,7 +2,7 @@ import img1 from "./assets/guide.jpg";
 import img2 from "./assets/allergy.jpg";
 import img3 from "./assets/quizapp.png";
 import img4 from "./assets/stock.png";
-//import img5 from "./assets/sqlgenerator.png"; 
+import img5 from "./assets/sql.png"; 
 const logotext = "SAMI";
 
 const meta = {
@@ -89,7 +89,7 @@ const dataportfolio = [
         link: "https://github.com/sami3l/StockManagement",
     },
     {
-        img: "https://picsum.photos/400/500/?grayscale",
+        img: img5,
         description: "ClassDiagramEditor — UML tool built with React & Canvas",
         link: "https://github.com/sami3l/ClassDiagramEditor",
     },
