@@ -31,7 +31,10 @@ export default function App() {
           innerScale={0.7}
           outerScale={5}
         />
+        
       </div>
+    
+    
       <ScrollToTop>
         <Headermain />
         <AppRoutes />

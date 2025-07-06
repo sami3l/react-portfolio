@@ -9,12 +9,16 @@ export const Home = () => {
   return (
     <HelmetProvider>
       <section id="home" className="home">
+        
         <Helmet>
           <meta charSet="utf-8" />
           <title> {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
+           <div id="floatingSupport" className="floating-image">
+    <img src="/free.png" alt="Support Icon" />
+  </div>
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
             style={{ backgroundImage: `url(${introdata.your_img_url})` }}
