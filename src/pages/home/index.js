@@ -4,6 +4,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
+import FloatingSupport from "../../components/FloatingSupport";
 
 export const Home = () => {
   return (
@@ -16,9 +17,10 @@ export const Home = () => {
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
-           <div id="floatingSupport" className="floating-image">
+           {/* <div id="floatingSupport" className="floating-image">
     <img src="/free.png" alt="Support Icon" />
-  </div>
+  </div> */}
+          <FloatingSupport />
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
             style={{ backgroundImage: `url(${introdata.your_img_url})` }}

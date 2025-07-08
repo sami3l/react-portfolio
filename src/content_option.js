@@ -3,6 +3,7 @@ import img2 from "./assets/allergy.jpg";
 import img3 from "./assets/quizapp.png";
 import img4 from "./assets/stock.png";
 import img5 from "./assets/sql.png"; 
+
 const logotext = "SAMI";
 
 const meta = {
@@ -19,7 +20,7 @@ const introdata = {
     },
     description:
         "Software Engineering student with a strong focus on modern web technologies, backend systems, and growing knowledge in AI. I thrive on building real-world solutions and continuously evolving my skills.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d", // Replace with your image
+    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d", 
 };
 
 const dataabout = {
