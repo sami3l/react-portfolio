@@ -9,6 +9,8 @@ import AppRoutes from "./routes";
 import Headermain from "../header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
 import "./App.css";
+import { Analytics } from '@vercel/analytics/react';
+ 
 
 function _ScrollToTop(props) {
   const { pathname } = useLocation();
@@ -31,6 +33,7 @@ export default function App() {
           innerScale={0.7}
           outerScale={5}
         />
+        <Analytics />
       </div>
       <ScrollToTop>
         <Headermain />
