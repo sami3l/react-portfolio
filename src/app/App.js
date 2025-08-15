@@ -8,6 +8,7 @@ import withRouter from "../hooks/withRouter";
 import AppRoutes from "./routes";
 import Headermain from "../header";
 import AnimatedCursor  from "../hooks/AnimatedCursor";
+import { Analytics } from '@vercel/analytics/react';
 import "./App.css";
 
 function _ScrollToTop(props) {
@@ -31,7 +32,7 @@ export default function App() {
           innerScale={0.7}
           outerScale={5}
         />
-        
+        <Analytics />
       </div>
     
     
