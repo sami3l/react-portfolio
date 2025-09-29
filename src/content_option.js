@@ -45,9 +45,10 @@ const worktimeline = [
 const skills = [
     { name: "TypeScript", value: 90 },
     { name: "React / Next.js", value: 85 },
+    {name: "React Native" , value: 70},
     { name: ".NET / C#", value: 80 },
     { name: "Express.js & Node.js", value: 75 },
-    { name: "MongoDB", value: 70 },
+    { name: "MongoDB", value: 75 },
     { name: "SQL Server", value: 70 },
     { name: "Python (AI exploration)", value: 65 },
     { name: "Docker & CI/CD", value: 60 },
@@ -75,12 +76,12 @@ const dataportfolio = [
         link: "https://github.com/sami3l/QuizApp_Dockerise",
     },
     {
-        img: img1,
+        img: img2,
         description: "Food Allergy Detector — AI-powered mobile app for barcode scanning & personalized allergen risk assessment",
         link: "https://github.com/sami3l/Foodallergy_MobileApp",
     },
     {
-        img: img2,
+        img: img1,
         description: "GuideMalvoyant — AI navigation assistant for visually impaired with TensorFlow Lite & voice guidance",
         link: "https://github.com/sami3l/ProjetAiMalvoyant_V2",
     },
