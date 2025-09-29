@@ -76,10 +76,10 @@ const services = [
 ];
 
 const dataportfolio = [
-    {
-        img: img3,
-        description: "QuizApp — Full-stack quiz platform with JWT auth, admin dashboard & analytics built with Spring Boot & React",
-        link: "https://github.com/sami3l/QuizApp_Dockerise",
+     {
+        img: img6,
+        description: "Synthetic Data Generation Platform — Mobile app for generating synthetic data using generative ML & DL models, built with FastApi & ReactNative",
+        link: "https://github.com/sami3l/Synthetic-Data-Generation-Platform/tree/main/synthetic-data-platform#readme",
     },
     {
         img: img2,
@@ -102,10 +102,11 @@ const dataportfolio = [
         link: "https://github.com/sami3l/ClassDiagramEditor",
     },
     {
-        img: img6,
-        description: "Synthetic Data Generation Platform — Mobile app for generating synthetic data using generative ML & DL models, built with FastApi & ReactNative",
-        link: "https://github.com/sami3l/Synthetic-Data-Generation-Platform/tree/main/synthetic-data-platform#readme",
+        img: img3,
+        description: "QuizApp — Full-stack quiz platform with JWT auth, admin dashboard & analytics built with Spring Boot & React",
+        link: "https://github.com/sami3l/QuizApp_Dockerise",
     },
+   
 ];
 
 const contactConfig = {
