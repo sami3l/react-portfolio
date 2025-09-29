@@ -81,15 +81,15 @@ const dataportfolio = [
         description: "Synthetic Data Generation Platform — Mobile app for generating synthetic data using generative ML & DL models, built with FastApi & ReactNative",
         link: "https://github.com/sami3l/Synthetic-Data-Generation-Platform/tree/main/synthetic-data-platform#readme",
     },
+       {
+        img: img5,
+        description: "ClassDiagramEditor — UML tool built with React & Canvas",
+        link: "https://github.com/sami3l/ClassDiagramEditor",
+    },
     {
         img: img2,
         description: "Food Allergy Detector — AI-powered mobile app for barcode scanning & personalized allergen risk assessment",
         link: "https://github.com/sami3l/Foodallergy_MobileApp",
-    },
-    {
-        img: img1,
-        description: "GuideMalvoyant — AI navigation assistant for visually impaired with TensorFlow Lite & voice guidance",
-        link: "https://github.com/sami3l/ProjetAiMalvoyant_V2",
     },
     {
         img: img4,
@@ -97,9 +97,9 @@ const dataportfolio = [
         link: "https://github.com/sami3l/StockManagement",
     },
     {
-        img: img5,
-        description: "ClassDiagramEditor — UML tool built with React & Canvas",
-        link: "https://github.com/sami3l/ClassDiagramEditor",
+        img: img1,
+        description: "GuideMalvoyant — AI navigation assistant for visually impaired with TensorFlow Lite & voice guidance",
+        link: "https://github.com/sami3l/ProjetAiMalvoyant_V2",
     },
     {
         img: img3,
