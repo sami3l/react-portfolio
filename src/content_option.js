@@ -3,6 +3,7 @@ import img2 from "./assets/allergy.jpg";
 import img3 from "./assets/quizapp.png";
 import img4 from "./assets/stock.png";
 import img5 from "./assets/sql.png"; 
+import img6 from "./assets/new_request.jpg";
 
 const logotext = "SAMI";
 
@@ -31,14 +32,19 @@ const dataabout = {
 
 const worktimeline = [
     {
+        jobtitle: "Full Stack AI Developer Intern",
+        where: "Smart Automation Technologies",
+        date: "Jul - Aug 2025",
+    },
+    {
         jobtitle: "Full Stack Intern",
         where: "OCP Group",
-        date: "Jul - Sep 2023",
+        date: "Jun - Jul 2023",
     },
     {
         jobtitle: "Software Developer Intern",
         where: "Ibn Khaldoun University",
-        date: "Sep - Dec 2022",
+        date: "Sep - Oct 2022",
     },
 ];
 
@@ -56,8 +62,8 @@ const skills = [
 
 const services = [
     {
-        title: "Full-Stack Web Development",
-        description: "From frontend to backend, I build performant, scalable, and maintainable web apps using modern stacks like React, Next.js, TypeScript, and .NET.",
+        title: "Full-Stack Development",
+        description: "From frontend to backend, I build performant, scalable, and maintainable web/mobile apps using modern stacks like React Native, Next.js , TypeScript, and Python.",
     },
     {
         title: "Software Engineering",
@@ -94,6 +100,11 @@ const dataportfolio = [
         img: img5,
         description: "ClassDiagramEditor — UML tool built with React & Canvas",
         link: "https://github.com/sami3l/ClassDiagramEditor",
+    },
+    {
+        img: img6,
+        description: "Synthetic Data Generation Platform — Mobile app for generating synthetic data using generative ML & DL models, built with FastApi & ReactNative",
+        link: "https://github.com/sami3l/Synthetic-Data-Generation-Platform/tree/main/synthetic-data-platform#readme",
     },
 ];
 
