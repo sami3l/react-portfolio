@@ -114,7 +114,7 @@ const contactConfig = {
     YOUR_FONE: "+212 676 092 320",
     description: "I’m open to internships, collaborations, and innovative project ideas — especially those involving full-stack development or AI.",
     YOUR_SERVICE_ID: "service_fp6lk6q",
-    YOUR_TEMPLATE_ID: "template_str8q8j",
+    YOUR_TEMPLATE_ID: "template_m7dyt3w",
     YOUR_USER_ID: "8daUFpsZc2j_DPLd8",
 };
 
